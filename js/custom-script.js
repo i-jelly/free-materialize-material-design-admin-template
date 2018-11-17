@@ -9,6 +9,11 @@ NOTE:
 ------
 PLACE HERE YOUR OWN JS CODES AND IF NEEDED.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR CUSTOM SCRIPT IT'S BETTER LIKE THIS. */
+let $noti = $('<span>Notifications here</span><br/>')
+
+$(document).ready(function(){$('.tooltipped').tooltip({delay: 50});});
+Materialize.toast($noti, 5000);
+
 function rightNavBarCheckboxChange()
 {
 	$('.likesort').click(function(){
