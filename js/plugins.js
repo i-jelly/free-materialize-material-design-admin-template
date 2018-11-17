@@ -31,6 +31,7 @@
     // Check first if any of the task is checked
     $('#task-card input:checkbox').each(function() {
       checkbox_check(this);
+      
     });
 
     // Task check box
